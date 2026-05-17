@@ -1,0 +1,15 @@
+import random
+choice=input("Do you want to play (y/n):").lower()
+
+while True:
+    if choice=='y':
+     print("Roll a dice:")
+     num=random.randint(1,6)
+     print(f'your num is: {num}')
+    else:
+        print("wrong input only write y or n")
+        break    
+
+    choice=input("Do you want to play(y/n):") .lower() 
+    if choice=='n':
+        break
